@@ -130,8 +130,8 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Display data for every country on Homepage]**
-- [ ] **[Display data for every country in a specific continent]**
+- [ ] **[Display data for every Crypto asset on Homepage]**
+- [ ] **[Display performance data for for a specific asset]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
