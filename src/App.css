@@ -9,29 +9,10 @@
   font-family: "Montserrat", sans-serif;
 }
 
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  box-shadow: 0 10px 10px 5px rgb(255, 255, 255);
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.4);
-}
-
-.white {
-  color: #fff;
-}
-
 .flex {
   display: flex;
   align-items: center;
 }
-
 
 .p2 {
   padding: 20px;
@@ -54,25 +35,26 @@
   font-weight: 300;
 }
 
-
 body {
   background: #d4679d;
+  background-image: linear-gradient(to right, #d353ac, rgb(209, 87, 154));
 }
 
-.search-field {
+/* .search-field {
   width: 100%;
   outline: 0;
   padding: 5px;
   border: none;
   border-radius: 5px;
-}
+} */
 
 .header {
   width: 100%;
   justify-content: space-between;
   border-radius: 5px;
   margin: auto;
-  border-bottom: 1px solid rgb(255, 255, 255, 0.5);
+  background: #db6a90;
+  background-image: linear-gradient(to left, #d353ac, rgb(209, 87, 154));
 }
 
 .head-details {
@@ -88,10 +70,10 @@ body {
   gap: 4em;
 }
 
-.head-logo {
+/* .head-logo {
   width: 70%;
   gap: 5rem;
-}
+} */
 
 .fa {
   color: #fff;
@@ -168,7 +150,7 @@ body {
   justify-content: center;
   gap: 10px;
   background: #d353ac;
-  background-image: linear-gradient(to left, #d353ac , rgb(209, 87, 154));
+  background-image: linear-gradient(to left, #d353ac, rgb(209, 87, 154));
 }
 
 .wrapper-content-2 {
@@ -188,44 +170,21 @@ body {
   flex: 1;
 }
 
-.crypto-details button:nth-child(4n + 0),
-.crypto-details button:nth-child(4n + 1) {
-  background: #d353ac;
-  background-image: linear-gradient(to left, rgb(151, 75, 75) , #d353ac);
+::-webkit-scrollbar {
+  width: 10px;
 }
 
-.crypto-details button:nth-child(4n + 2),
-.crypto-details button:nth-child(4n + 3) {
-  background: #da418d;
-  background-image: linear-gradient(to left, rgb(151, 75, 75) , #da418d);
+::-webkit-scrollbar-track {
+  box-shadow: 0 10px 10px 5px rgb(255, 255, 255);
+  border-radius: 10px;
 }
 
-.details_container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-end;
-  width: 50%;
-  outline: 0;
-  border: 0;
-  height: 170px;
-  cursor: pointer;
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
 }
 
-tr td p {
-  width: 100%;
-  margin: 0 auto;
-  padding: 10px 20px 10px 20px;
-  background: #00be3f;
-  border-radius: 5px;
-  border: 0;
-  color: #fff;
-  font-weight: bold;
-  font-size: 15px;
-}
-
-tr td p a {
-  text-decoration: none;
+.white {
   color: #fff;
 }
 
@@ -233,15 +192,6 @@ tr {
   width: 100%;
   display: flex;
   justify-content: space-between;
-}
-
-td {
-  padding: 20px;
-}
-
-tr td:nth-child(1) {
-  font-weight: bold;
-  font-size: 15px;
 }
 
 tr:nth-child(odd) {
@@ -256,6 +206,18 @@ tr:nth-child(even) {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+tr td p {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 20px 10px 20px;
+  background: #00be3f;
+  border-radius: 5px;
+  border: 0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 .crypto-name p {
@@ -287,6 +249,44 @@ table {
   font-family: "Roboto Slab", serif;
 }
 
+.crypto-details button:nth-child(4n + 0),
+.crypto-details button:nth-child(4n + 1) {
+  background: #d353ac;
+  background-image: linear-gradient(to left, rgb(151, 75, 75), #d353ac);
+}
+
+.crypto-details button:nth-child(4n + 2),
+.crypto-details button:nth-child(4n + 3) {
+  background: #da418d;
+  background-image: linear-gradient(to left, rgb(151, 75, 75), #da418d);
+}
+
+.details_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 50%;
+  outline: 0;
+  border: 0;
+  height: 170px;
+  cursor: pointer;
+}
+
+tr td p a {
+  text-decoration: none;
+  color: #fff;
+}
+
+td {
+  padding: 20px;
+}
+
+tr td:nth-child(1) {
+  font-weight: bold;
+  font-size: 15px;
+}
+
 .status {
   padding: 5px;
 }
@@ -315,8 +315,9 @@ table {
   display: flex;
   justify-content: center;
   padding: 10px;
-  border-bottom: 1px solid rgb(0, 255, 0, 0.5);
-  border-top: 1px solid rgb(0, 255, 0, 0.5);
+  border-bottom: 1px solid rgba(255, 0, 200, 0.5);
+
+  /* border-top: 1px solid rgba(235, 86, 198, 0.5); */
 }
 
 .search input {

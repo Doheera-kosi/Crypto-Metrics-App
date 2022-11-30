@@ -105,28 +105,28 @@ Object {
             >
               <span
                 size="500"
-                style="display: inherit; position: relative; font-size: 0px; top: 20px; left: 20px; width: 60px; height: 60px;"
+                style="display: inherit; position: relative; font-size: 0; top: 20px; left: 20px; width: 60px; height: 60px;"
               >
                 <span
-                  style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.12s infinite ease-in-out; top: 20px; left: 0px;"
+                  style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.12s infinite ease-in-out; top: 20px; left: 0;"
                 />
                 <span
                   style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.24s infinite ease-in-out; top: 13.636363636363637px; left: 13.636363636363637px; transform: rotate(-45deg);"
                 />
                 <span
-                  style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.36s infinite ease-in-out; top: 0px; left: 20px; transform: rotate(90deg);"
+                  style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.36s infinite ease-in-out; top: 0; left: 20px; transform: rotate(90deg);"
                 />
                 <span
                   style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.48s infinite ease-in-out; top: -13.636363636363637px; left: 13.636363636363637px; transform: rotate(45deg);"
                 />
                 <span
-                  style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.6s infinite ease-in-out; top: -20px; left: 0px;"
+                  style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.6s infinite ease-in-out; top: -20px; left: 0;"
                 />
                 <span
                   style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.72s infinite ease-in-out; top: -13.636363636363637px; left: -13.636363636363637px; transform: rotate(-45deg);"
                 />
                 <span
-                  style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.84s infinite ease-in-out; top: 0px; left: -20px; transform: rotate(90deg);"
+                  style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.84s infinite ease-in-out; top: 0; left: -20px; transform: rotate(90deg);"
                 />
                 <span
                   style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.96s infinite ease-in-out; top: 13.636363636363637px; left: -13.636363636363637px; transform: rotate(45deg);"
@@ -237,28 +237,28 @@ Object {
             >
               <span
                 size="500"
-                style="display: inherit; position: relative; font-size: 0px; top: 20px; left: 20px; width: 60px; height: 60px;"
+                style="display: inherit; position: relative; font-size: 0; top: 20px; left: 20px; width: 60px; height: 60px;"
               >
                 <span
-                  style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.12s infinite ease-in-out; top: 20px; left: 0px;"
+                  style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.12s infinite ease-in-out; top: 20px; left: 0;"
                 />
                 <span
                   style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.24s infinite ease-in-out; top: 13.636363636363637px; left: 13.636363636363637px; transform: rotate(-45deg);"
                 />
                 <span
-                  style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.36s infinite ease-in-out; top: 0px; left: 20px; transform: rotate(90deg);"
+                  style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.36s infinite ease-in-out; top: 0; left: 20px; transform: rotate(90deg);"
                 />
                 <span
                   style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.48s infinite ease-in-out; top: -13.636363636363637px; left: 13.636363636363637px; transform: rotate(45deg);"
                 />
                 <span
-                  style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.6s infinite ease-in-out; top: -20px; left: 0px;"
+                  style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.6s infinite ease-in-out; top: -20px; left: 0;"
                 />
                 <span
                   style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.72s infinite ease-in-out; top: -13.636363636363637px; left: -13.636363636363637px; transform: rotate(-45deg);"
                 />
                 <span
-                  style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.84s infinite ease-in-out; top: 0px; left: -20px; transform: rotate(90deg);"
+                  style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.84s infinite ease-in-out; top: 0; left: -20px; transform: rotate(90deg);"
                 />
                 <span
                   style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.96s infinite ease-in-out; top: 13.636363636363637px; left: -13.636363636363637px; transform: rotate(45deg);"
@@ -370,28 +370,28 @@ Object {
           >
             <span
               size="500"
-              style="display: inherit; position: relative; font-size: 0px; top: 20px; left: 20px; width: 60px; height: 60px;"
+              style="display: inherit; position: relative; font-size: 0; top: 20px; left: 20px; width: 60px; height: 60px;"
             >
               <span
-                style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.12s infinite ease-in-out; top: 20px; left: 0px;"
+                style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.12s infinite ease-in-out; top: 20px; left: 0;"
               />
               <span
                 style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.24s infinite ease-in-out; top: 13.636363636363637px; left: 13.636363636363637px; transform: rotate(-45deg);"
               />
               <span
-                style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.36s infinite ease-in-out; top: 0px; left: 20px; transform: rotate(90deg);"
+                style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.36s infinite ease-in-out; top: 0; left: 20px; transform: rotate(90deg);"
               />
               <span
                 style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.48s infinite ease-in-out; top: -13.636363636363637px; left: 13.636363636363637px; transform: rotate(45deg);"
               />
               <span
-                style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.6s infinite ease-in-out; top: -20px; left: 0px;"
+                style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.6s infinite ease-in-out; top: -20px; left: 0;"
               />
               <span
                 style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.72s infinite ease-in-out; top: -13.636363636363637px; left: -13.636363636363637px; transform: rotate(-45deg);"
               />
               <span
-                style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.84s infinite ease-in-out; top: 0px; left: -20px; transform: rotate(90deg);"
+                style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.84s infinite ease-in-out; top: 0; left: -20px; transform: rotate(90deg);"
               />
               <span
                 style="position: absolute; width: 5px; height: 15px; margin: 2px; background-color: rgb(54, 215, 183); border-radius: 2px; transition: 2s; animation-fill-mode: both; animation: react-spinners-FadeLoader-fade 1.2s 0.96s infinite ease-in-out; top: 13.636363636363637px; left: -13.636363636363637px; transform: rotate(45deg);"

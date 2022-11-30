@@ -20,7 +20,8 @@
     "react-spinners": "^0.13.6",
     "redux-thunk": "^2.4.2",
     "web-vitals": "^2.1.4"
-  },
+  }
+  ,
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -29,21 +30,21 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
+    "react-app",
       "react-app/jest"
     ]
   },
   "browserslist": {
     "production": [
-      ">0.2%",
+    ">0.2%",
       "not dead",
       "not op_mini all"
-    ],
+      ],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ]
+      ]
   },
   "devDependencies": {
     "@babel/core": "^7.20.5",
@@ -56,6 +57,10 @@
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.28.0",
-    "eslint-plugin-react-hooks": "^4.3.0"
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
   }
 }
