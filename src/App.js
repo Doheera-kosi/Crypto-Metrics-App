@@ -1,24 +1,34 @@
-import logo from './logo.svg';
+/* eslint-disable import/extensions */
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import './mediaQueries.css';
+import Cryptos from './Components/Cryptos';
+import Crypto from './Components/Crypto';
+import NavBar from './Components/NavBar';
+import Search from './Components/CryptoDetails';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route
+        path="/"
+        element={(
+          <>
+            <NavBar />
+            <Cryptos />
+          </>
+        )}
+      />
+      <Route
+        path="/crypto-details"
+        element={(
+          <>
+            <Search />
+            <Crypto />
+          </>
+        )}
+      />
+    </Routes>
   );
 }
 

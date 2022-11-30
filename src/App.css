@@ -1,38 +1,349 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Roboto+Slab:wght@100;200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: 0 10px 10px 5px rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.white {
+  color: #fff;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+
+.p2 {
+  padding: 20px;
+}
+
+.left {
+  text-align: left;
+}
+
+.h1 {
+  font-weight: bold;
+}
+
+.font-2 {
+  font-family: "Roboto Slab", serif;
+}
+
+.font-3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+
+body {
+  background: #d4679d;
+}
+
+.search-field {
+  width: 100%;
+  outline: 0;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.header {
+  width: 100%;
+  justify-content: space-between;
+  border-radius: 5px;
+  margin: auto;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.5);
+}
+
+.head-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+}
+
+.banner {
+  display: flex;
+  gap: 4em;
+}
+
+.head-logo {
+  width: 70%;
+  gap: 5rem;
+}
+
+.fa {
+  color: #fff;
+  cursor: pointer;
+  font-size: 50px;
+}
+
+.right-icon {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  padding: 10px;
+  justify-content: flex-end;
+}
+
+.head-logo {
+  padding: 10px;
+  gap: 5px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 25%;
+  border-radius: 10px;
+}
+
+.fa-chevron-left {
+  padding-right: 10px;
+}
+
+.home-title {
+  align-items: center;
+}
+
+.wrap-2 {
+  background: #da418d;
+  flex-basis: 12em;
+  width: 100%;
+  height: 10em;
+}
+
+.bg-wrap {
+  flex-basis: 12em;
+  width: 100%;
+  border-radius: 6px;
+  height: 100px;
+  opacity: 1;
+  background: url("./assets/btc.png") no-repeat center;
+  background-size: contain;
+  flex-grow: 1;
+}
+
+.bg-wrap-2 {
+  border-radius: 6px;
+  height: 100px;
+  opacity: 1;
+  background: url("./assets/crypto.png") no-repeat center;
+  background-size: contain;
+  flex-basis: 12em;
+  width: 100%;
+}
+
+.font-4 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+}
+
+.wrapper-content {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  background: #d353ac;
+  background-image: linear-gradient(to left, #d353ac , rgb(209, 87, 154));
+}
+
+.wrapper-content-2 {
+  width: 50%;
+  background: #d353ac;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.crypto-details {
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  flex: 1;
+}
+
+.crypto-details button:nth-child(4n + 0),
+.crypto-details button:nth-child(4n + 1) {
+  background: #d353ac;
+  background-image: linear-gradient(to left, rgb(151, 75, 75) , #d353ac);
+}
+
+.crypto-details button:nth-child(4n + 2),
+.crypto-details button:nth-child(4n + 3) {
+  background: #da418d;
+  background-image: linear-gradient(to left, rgb(151, 75, 75) , #da418d);
+}
+
+.details_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 50%;
+  outline: 0;
+  border: 0;
+  height: 170px;
+  cursor: pointer;
+}
+
+tr td p {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 20px 10px 20px;
+  background: #00be3f;
+  border-radius: 5px;
+  border: 0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+tr td p a {
+  text-decoration: none;
+  color: #fff;
+}
+
+tr {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+td {
+  padding: 20px;
+}
+
+tr td:nth-child(1) {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+tr:nth-child(odd) {
+  background: #ca4989;
+}
+
+tr:nth-child(even) {
+  background: #da418d;
+}
+
+.crypto-name {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.crypto-name p {
+  text-align: right;
+}
+
+.crypto-info {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.price,
+.change {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.symbol {
+  padding-left: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.rank {
+  font-family: "Roboto Slab", serif;
+}
+
+.status {
+  padding: 5px;
+}
+
+.fa-caret-up {
+  color: rgb(0, 255, 0);
+  padding-left: 5px;
+}
+
+.fa-caret-down {
+  color: red;
+  padding-left: 5px;
+}
+
+.load-spinner {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.search {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-bottom: 1px solid rgb(0, 255, 0, 0.5);
+  border-top: 1px solid rgb(0, 255, 0, 0.5);
+}
+
+.search input {
+  padding: 10px;
+  border-radius: 1.5em;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: auto;
+}
+
+.search-msg {
+  display: none;
+  padding: 10px;
+  width: 80%;
+  margin: auto;
+  border-radius: 5px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.failure {
+  background: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.success {
+  background: #00be3f;
+  color: #fff;
+  font-weight: 400;
 }
