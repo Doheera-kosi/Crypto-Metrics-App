@@ -61,7 +61,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🎥 Video Presentation
-- [Video]()
+- [Video](https://www.loom.com/share/6f02da63552e49489fd9eb8aa8b474bf/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
