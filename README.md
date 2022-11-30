@@ -114,13 +114,13 @@ To run tests, run the following command:
 
 You can deploy this project using:
 
-- [Vercel](https://docs.netlify.com/)
+- [Netlify](https://docs.netlify.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Kwasi Antwi Baayeh**
+👤 **Evans Kupour**
 
 - GitHub: [@githubhandle](https://github.com/Doheera-kosi)
 - Twitter: [@twitterhandle](https://twitter.com/@KupourE)
