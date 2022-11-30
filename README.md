@@ -30,8 +30,8 @@
 ## 📷 [Screenshots]
 
 <div>
-  <img src="./assets/home-Crypto.PNG" />
-  <img src="./assets/detail-Crypto.PNG" />
+  <img src="./src/assets/home-Crypto.PNG" />
+  <img src="./src/assets/detail-Crypto.PNG" />
 </div>
 
 ## 🛠 Built With <a name="built-with"></a>
