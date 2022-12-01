@@ -40,14 +40,6 @@ body {
   background-image: linear-gradient(to right, #d353ac, rgb(209, 87, 154));
 }
 
-/* .search-field {
-  width: 100%;
-  outline: 0;
-  padding: 5px;
-  border: none;
-  border-radius: 5px;
-} */
-
 .header {
   width: 100%;
   justify-content: space-between;
@@ -69,11 +61,6 @@ body {
   display: flex;
   gap: 4em;
 }
-
-/* .head-logo {
-  width: 70%;
-  gap: 5rem;
-} */
 
 .fa {
   color: #fff;
@@ -316,8 +303,6 @@ tr td:nth-child(1) {
   justify-content: center;
   padding: 10px;
   border-bottom: 1px solid rgba(255, 0, 200, 0.5);
-
-  /* border-top: 1px solid rgba(235, 86, 198, 0.5); */
 }
 
 .search input {
