@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the navbar component 1`] = `
+<DocumentFragment>
+  <header
+    class="header flex"
+  >
+    <div
+      class="head-logo"
+    >
+      <div
+        class="logo"
+      >
+        <span
+          class="back"
+        >
+          <span
+            class="back-txt white"
+          >
+            <img
+              alt="App Logo"
+              class="logo"
+              src="cryptoLogo.png"
+            />
+          </span>
+        </span>
+      </div>
+    </div>
+    <div
+      class="right-icon"
+    >
+      <span
+        class="mic"
+      >
+        <i
+          aria-hidden="true"
+          class="fa fa-microphone"
+        />
+      </span>
+      <span
+        class="app-settings"
+      >
+        <i
+          aria-hidden="true"
+          class="fa fa-cog"
+        />
+      </span>
+    </div>
+  </header>
+</DocumentFragment>
+`;

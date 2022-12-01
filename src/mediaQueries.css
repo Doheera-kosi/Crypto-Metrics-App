@@ -1,0 +1,26 @@
+@media screen and (min-width: 768px) {
+  .header,
+  .header-detail {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .logo-header,
+  .right-icon,
+  .logo-header-detail {
+    flex-grow: 1;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+
+  .bg-wrap,
+  .bg-wrap-2 {
+    flex-grow: 1;
+  }
+
+  .tr > td > p:hover {
+    background: #004216;
+  }
+}
